@@ -1,0 +1,45 @@
+{
+  "attachments": [
+    {
+      "title": "item['name']",
+      "title_link": "https://api.slack.com/",
+      "color": "#3AA3E3",
+      "fields": [
+        {
+          "title": "Stock Count",
+          "value": "stock",
+          "short": "true"
+        },
+        {
+          "title": "Store",
+          "value": "store",
+          "short": "true"
+        },
+        {
+          "title": "Notification type",
+          "value": "match_type",
+          "short": "true"
+        },
+        {
+          "title": "Price",
+          "value": "price",
+          "short": "true"
+        },
+        {
+          "title": "Sizes",
+          "value": "sizes",
+          "short": "true"
+        }
+      ],
+      "actions": [
+        {
+          "type": "button",
+          "text": "Purchase",
+          "url": "item['url']",
+          "style": "primary"
+        }
+      ],
+      "thumb_url": "item['image']"
+    }
+  ]
+}
